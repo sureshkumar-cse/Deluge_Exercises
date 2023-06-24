@@ -1,0 +1,11 @@
+// Convert total minutes into Hours and Minutes
+totalMinutes = 400;
+rawHours = 400 / 60;
+hours = rawHours.toNumber();
+info hours;
+remainingMinutes = 400 % 60;
+info remainingMinutes;
+
+// Convert Hours and Minutes into a Decimal number
+avilableHours = hours+"."+remainingMinutes;
+info toDecimal(avilableHours);
